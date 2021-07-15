@@ -1,4 +1,20 @@
 body{
     background-color: #000;
     color: #fff;
+    text-align: center;
+}
+p{
+    background-color: #fff;
+    color: black;
+    width: 177px;
+    height: 21px;
+    margin: auto;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+#notify{
+    color: red;
 }
