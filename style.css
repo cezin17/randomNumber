@@ -1,14 +1,39 @@
 body{
-    background-color: #000;
-    color: #fff;
+    background-color: rgb(39, 65, 77);
+    color: rgb(236, 179, 32);;
     text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+    text-shadow: 2px 0px 2px rgb(29, 28, 28);
+    margin-top: 150px;
 }
 p{
-    background-color: #fff;
-    color: black;
-    width: 177px;
-    height: 21px;
+    background-color: rgb(184, 178, 166);
+    width: 140px;
+    height: 40px;
     margin: auto;
+    text-shadow: 1px 1px 1px rgb(29, 28, 28);
+    font-size: 30px;
+}
+
+.btn{
+    background-color: rgb(39, 65, 77);
+    color: rgb(236, 179, 32);
+    font-family: monospace;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px rgb(29, 28, 28);
+}
+
+#input{
+    background-color: black;
+    color: rgb(236, 179, 32);
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+#result{
+    color: black;
 }
 
 .hidden{
@@ -16,5 +41,5 @@ p{
 }
 
 #notify{
-    color: red;
+    color: rgb(255, 0, 0);
 }
