@@ -1,3 +1,7 @@
+html{
+    height:100%;
+}
+
 body{
     background-color: rgb(39, 65, 77);
     color: rgb(236, 179, 32);;
@@ -30,6 +34,8 @@ p{
     text-align: center;
     font-family: monospace;
     font-size: 20px;
+    width: 140px;
+    height: 40px;
 }
 
 #result{
